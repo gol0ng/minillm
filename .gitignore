@@ -1,0 +1,7 @@
+.venv
+datasets
+
+.vscode
+logs
+output
+__pycache__
