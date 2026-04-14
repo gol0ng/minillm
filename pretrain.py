@@ -1,8 +1,8 @@
 import torch
 import torch.optim as optim
 import time
-from sft.model import MiniChineseGPT, GPTConfig
-from sft.dataloader import WikiDataset, MyTokenizer
+from model import MiniChineseGPT, GPTConfig
+from dataloader import WikiDataset, MyTokenizer
 from torch.utils.data import DataLoader
 
 # --- 1. 硬件设备配置 (GPU 加速) ---

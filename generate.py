@@ -1,7 +1,7 @@
 import torch
 from torch.nn import functional as F
-from sft.model import MiniChineseGPT, GPTConfig
-from sft.dataloader import MyTokenizer
+from model import MiniChineseGPT, GPTConfig
+from dataloader import MyTokenizer
 
 # --- 1. 参数与路径配置 ---
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
